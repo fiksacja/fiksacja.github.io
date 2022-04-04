@@ -4,7 +4,7 @@ $('#button-take').on('click', function()
 {
   if($('#dane-programisty').length===0)
   {
-  $("<div id='dane-programisty'>").appendTo('body')
+  $("<div id='dane-programisty'>").appendTo('body') 
   }
   
 $.getJSON(dataUrl, function(dane)
